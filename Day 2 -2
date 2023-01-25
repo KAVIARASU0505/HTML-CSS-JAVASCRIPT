@@ -1,0 +1,38 @@
+<!Doctype html>
+<html lang="en-US">
+<head>
+<style>
+span.fnt{
+font-size:15px;
+}
+span.grad{
+color:blue
+}
+body{
+background-color:lightgreen;
+}
+</style>
+<link rel="icon" href="image.png"/>
+<title>HTML Text Fundamentals</title></head>
+<body>
+<h1 style="text-align:center"><u>HTML Text Fundamentals</u></h1>
+<p>HTML is an HyperText Markup Language<br></p>
+<p>The HTML code consists of different Elements for developing an webpage.</p>
+<pre><h3>
+There are 6 Heading Levels.
+They are:</h3></pre>
+<ol>
+<li>h1</li>
+<li>h2</li>
+<li>h3</li>
+<li>h4</li>
+<li>h4</li>
+<li>h5</li>
+<li>h6</li>
+</ol>
+<h3>These are used for <span class="grad"><u>Headings</u></span>.</h3>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#the_basics_headings_and_paragraphs">Read the HTML Text Fundamentals</a></h2>
+<pre><p><span class="fnt">We often emphasize <span class="grad"><strong><em>certain words to alter the meaning </em></strong> </span>of a sentence.
+In the above sentence the coloured words are in italics.The em element is used as a tag for emphasis the word.</span></p></pre>
+</body>
+</html>
