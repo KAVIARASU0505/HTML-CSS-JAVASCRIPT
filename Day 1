@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+<style>
+body{
+background-color:Lightblue;
+}
+</style>
 <link rel="icon" href="image.png"/>
 <meta charset="utf-8" />
 <meta name="description" content="HTML BASICS">
 <meta name="viewport" content="width=device-width" />
 <title>Basic html</title>
 </head>
-<body>
+<body >
 <h1 style="text-align:center">Basics of Html</h1>
+<img src="https://e7.pngegg.com/pngimages/809/78/png-clipart-computer-icons-html-font-others-text-logo.png" alt="HTML image"width="500" height="300"/>
 <ul>
 <li>HTML stands for Hyper Text Markup Language.</li>
 <li>HTML describes the structure of a Web page.
@@ -19,7 +25,6 @@
 </li>                                                         
 </ul>
 <p>&emsp;HTML elements tell the browser how to display the content.</p>
-<img src="https://e7.pngegg.com/pngimages/809/78/png-clipart-computer-icons-html-font-others-text-logo.png" alt="HTML image"width="500" height="300">
 <p><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Read the HTML Basics</a></p>
 </body>
 </html>
