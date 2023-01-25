@@ -2,7 +2,10 @@
 <html lang="en-US">
 <head>
 <style>
-span.fnt{
+#head{
+background-color:orange;
+}
+.fnt{
 font-size:15px;
 }
 span.grad{
@@ -31,8 +34,10 @@ They are:</h3></pre>
 <li>h6</li>
 </ol>
 <h3>These are used for <span class="grad"><u>Headings</u></span>.</h3>
-<h2><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#the_basics_headings_and_paragraphs">Read the HTML Text Fundamentals</a></h2>
-<pre><p><span class="fnt">We often emphasize <span class="grad"><strong><em>certain words to alter the meaning </em></strong> </span>of a sentence.
+<pre><p class="fnt">We often emphasize <span class="grad"><strong><em>certain words to alter the meaning </em></strong> </span>of a sentence.
 In the above sentence the coloured words are in italics.The em element is used as a tag for emphasis the word.</span></p></pre>
+<h2><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#the_basics_headings_and_paragraphs">Read the HTML Text Fundamentals</a></h2>
+<h2 id="head"><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" Title="Go to creating hyperlink page">Read about Hyperlink Creation</a></h2>
+<a href="mailto:kaviarasuselvam001@gmail.com">Click Here to contact me.</a>
 </body>
 </html>
