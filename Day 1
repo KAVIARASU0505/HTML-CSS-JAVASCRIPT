@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Basic html</title>
+</head>
+<body>
+<h1 style="text-align:center">Basics of Html</h1>
+<ul>
+<li>HTML stands for Hyper Text Markup Language.</li>
+<li>HTML describes the structure of a Web page.
+<ol>
+<li>We can use different tags for creating a web page.</li>
+<li>For example:<ul><li>h1</li>
+<li>p</li></ul></li>
+</li>                                                         
+</ul>
+<p>&emsp;HTML elements tell the browser how to display the content.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Read the HTML Basics</a></p>
+</body>
+</html>
