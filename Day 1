@@ -25,6 +25,6 @@ background-color:Lightblue;
 </li>                                                         
 </ul>
 <p>&emsp;HTML elements tell the browser how to display the content.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Read the HTML Basics</a></p>
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Read the overview of HTML5</a>
 </body>
 </html>
