@@ -1,0 +1,77 @@
+                                          About Advanced text formatting,Multimedia and Embedding,Document and website structure.
+/............
+/............
+/............
+/............
+/............                                                 
+<!Doctype Html>
+<html lan="en-US">
+<head> 
+<title>Advanced Text Formatting,structure of website and Multimedia works</title>
+<link rel="icon" href="image.png"/>
+<meta charset="utf-8" />
+<meta name="description" content="HTML BASICS">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<style>
+dt{
+font-weight:bold;
+}
+.warning {
+    border: 10px ridge red;
+    background-color: cyan;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+</head>
+<body>
+<div class="warning">
+<h1 style="text-align:center">Text Formatting</h1>
+<p><abbr title="Hypertext Markup Language">HTML</abbr>is to create a website page.</p>
+<p>Types of System Software:</p>
+<ol>
+<li>Operating Systems</li>
+<li>Device Driver</li>
+<li>Firmware</li>
+<li>Programming Language Translator</li>
+<li>Utilities</li>
+</ol>
+<dl>
+<blockquote cite="https://www.indeed.com/career-advice/career-development/types-of-software">
+<p style="text-align:center;font-size:20px"><strong>Types of application software:</strong></p>
+<dt>1.Word Pressing</dt>
+<dd>It is a program software that creates text-based documents.</dd>
+<dt>2.Database</dt>
+<dd>It is application software allows users to create and manage a database, which is a set of data</dd>
+<dt>3.Spreadsheet</dt>
+<dd>It is an application that can create electronic documents and arrange them in rows and columns.</dd>
+<dt>4.Web browsers</dt>
+<dd>Web browsers are application software that users can access to search for information on the internet.</dd>
+<dt>5.Multimedia</dt>
+<dd>Multimedia applications allow users to create or modify multimedia, including images, audio and video.</dd>
+</blackquote></dl>
+<h3>Below are some code used in C programming Language</h3>
+<p><code>#include &lt;stdio.h&gt;<br>
+int main() {<br>
+   printf("Hello, World!");<br>
+   return 0;<br>
+}</code>
+<p>The above code is took from <a href="https://www.programiz.com/c-programming/examples/print-sentence">
+<cite>Programiz page</cite></a></p>
+<h3 style="text-align:center">Let's see some expression using subscript and supscript</h3>
+<p><pre>Today date is<time datetime="2023-01-27"> 20 January 2016</time>
+My HSC result was on March 19<sup>th</sup>,2019.
+Chemical Formula of rust is Fe<sub>2</sub>O<sub>3</sub></pre></p>
+<iframe width="210" height="173" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+<audio controls>
+  <source src="https://mobcup.net/ringtone/avengers-motivational-8z19lm0g?utm_source=share">
+</audio>
+<footer>
+        <p style="text-align:center">© 2019 Copyright</p>
+    </footer>
+</div>
+</body>
+</html>
