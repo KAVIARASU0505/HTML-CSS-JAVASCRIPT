@@ -1,0 +1,97 @@
+                                                  Used Some Html Elements,Tables,paragraph,styles,css,links.
+/............
+/............
+/............
+/............
+/............       
+<!Doctype html>
+<html lang="en-US">
+<head>
+<title>Html elements and other components</title>
+<style>
+#head{
+background-color:orange;
+}
+.works {
+    border: 10px ridge red;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction:column;
+}
+table {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+table>thead>tr>th{
+font-weight:Bold;
+font-size:40px;
+}
+thead{
+    background-color: #333;
+    color: #fff;
+}
+</style>
+</head>
+<body>
+<div class="works">
+<table class="center"><thead>
+<tr>
+<th colspan="8">Details of the Trainee</th>
+</tr>
+</thead>
+<tr>
+<td><b>Name</b></td>
+<td><b>Address</b></td>
+<td><b>Company Name</b></td>
+<td><b>Company Location</b></td>
+</tr>
+<tr>
+<td>Kaviarasu C</td>
+<td>Namakkal</td>
+<td>Aspire Systems</td>
+<td>Chennai</td>
+</tr>
+<tr>
+<td>Sanjevi S</td>
+<td>Erode</td>
+<td>Aspire Systems</td>
+<td>Chennai</td>
+</tr><tr>
+<td>ArunPrakash N</td>
+<td>Erode</td>
+<td>Aspire Systems</td>
+<td>Chennai</td>
+</tr>
+</table>
+<h2 style="text-align:center"><u>Rules to be Followed</u></h2>
+<p style="text-align:center">A company policy is a guideline and rulebook for employers to establish formal expectations and standards for employee health and safety, accountability, best practices and processes within a company. It's also designed to ensure legal and regulatory compliance whether it's within the company or in external interactions with other companies and clients.</p>
+<p style="text-align:center">Policies are to a company what rules are to the players of a game. They are the framework and constraints within which everyone can strive for individual and collective success. Besides, for anyone who has watched a few kids playing together it’s pretty obvious why rules are important. And why it’s a good idea to write them down.</p>
+<p>Lets see some keyboard shortcuts</p>
+<pre><kbd><strong>Alt</kbd>+<kbd>F4</kbd></strong>----->Used For Shutting Down the Computer</pre>
+<pre><kbd><strong>Ctrl</kbd>+<kbd>O</kbd></strong>----->Used For Opening </pre>
+<pre><kbd><strong>Ctrl</kbd>+<kbd>N</kbd></strong>----->Used For Creating New Folder </pre>
+<pre><kbd><strong>Ctrl</kbd>+<kbd>S</kbd></strong>----->Used For Saving any File </pre>
+<div>
+    <label>Do I need a dictionary?	</label>
+    <input type="checkbox">
+</div>
+<div>
+   <label>Do you play games?	</label>
+    <input type="checkbox">
+<pre style="text-align:center">
+<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Read the Important Elements in HTML</a></h2>
+<h2 id="head"><a href="https://github.com/KAVIARASU0505/HTML-CSS-JAVASCRIPT">You can view my works through github</a></h2>
+<button type="button" onclick="alert('Byee!You have completed')">After Completion click me!</button>
+</pre>
+</div>
+</body>
+</html>
