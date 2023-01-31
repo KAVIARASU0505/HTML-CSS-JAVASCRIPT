@@ -1,0 +1,82 @@
+<!Doctype Html>
+<html lan="en-US">
+<head> 
+<title>CSS Selectors,syntax and others</title>
+<link rel="icon" href="image.png"/>
+<meta charset="utf-8" />
+<meta name="description" content="CSS BASICS">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<style>
+#fullbody{
+  background-image:linear-gradient(red,yellow);
+  width:1000px;
+  height:1000px;
+  }
+[class^="attribute"]{
+  font-style: italic;
+}
+*[lang=es]{
+  color:red;
+}
+.classselector{
+  font-weight:bold;
+  font-family: sans-serif;
+}
+#idselector{
+  background-color: blueviolet;
+}
+p::first-letter{
+font-size: 2em;
+}
+h1::before{
+  content: "Welcome to ";
+}
+h1,h2{
+  padding-left: 45%;
+  font-weight:30px;
+  margin-top: auto;
+}
+a:link{
+  color:rgb(2, 0, 0);
+}
+a:hover{
+  color:hotpink;
+}
+a:visited{
+  color:rgb(8, 5, 211);
+}
+a:active{
+  color:rgb(247, 223, 11);
+}
+</style>
+</head>
+<body id="fullbody">
+  <h1>Universal Texts</h1>
+  <p lang="es">de nada</p>
+  <p>The word is in spanish.The meaning is "You are Welcome"</p>
+  <p class="classselector">The words are in bold</p>
+  <img
+     src="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=612x612&w=0&k=20&c=jWUMrHgjMY9zQXsAwZFb1jfM6KxZE16-IXI1bvehjQM="
+     alt="Environment image" width="500px">
+  <p id="idselector">Environment Friendly</p>
+  <p class="attribute-selector">It is also known as Eco Friendly</p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" title="CSS Selectrs">This is the link to revise selector in css</a>
+<center><form action="">
+  <p style="margin-bottom: auto;"></p>
+  <label for="Your_name">Type your name:</label>
+  <input type="text" id="Your_name"></form><br>
+  <label for="Mnumber">Type your mobile number:</label>
+  <input type="text" id="Mnumber"><br>
+  <input type="submit" value="Click Here">
+</center>
+<figure style="margin:0"><blockquote cite="https://www.brainyquote.com/authors/swami-vivekananda-quotes">
+  <p>We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.</p>
+</blockquote>
+<figcaption>------>Swami-Vivekananda</figcaption>
+<time datetime="2023-01-31">31.01.2023</time>
+</figure>
+</form>
+<footer style=" padding-left: 50%;">@2019 Copyright Approved</footer>
+</body>
+</html>
