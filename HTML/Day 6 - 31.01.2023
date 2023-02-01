@@ -56,9 +56,9 @@ a:active{
   <p lang="es">de nada</p>
   <p>The word is in spanish.The meaning is "You are Welcome"</p>
   <p class="classselector">The words are in bold</p>
-  <img
+  <img style="float:inline-start;"
      src="https://media.istockphoto.com/id/1181366400/photo/in-the-hands-of-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-on.jpg?s=612x612&w=0&k=20&c=jWUMrHgjMY9zQXsAwZFb1jfM6KxZE16-IXI1bvehjQM="
-     alt="Environment image" width="500px">
+     alt="Environment image" width="300px">
   <p id="idselector">Environment Friendly</p>
   <p class="attribute-selector">It is also known as Eco Friendly</p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" title="CSS Selectrs">This is the link to revise selector in css</a>
