@@ -95,7 +95,7 @@ p{
 </article>
 <article>
     <h1>Maintenance and status pages</h1>
-    <p>I know that every client wants 100% SLAs but sometimes, when the sh** hits the fan, a maintenance page, hosted on a bucket somewhere, can be a life-saving jacket. A status page with a small dynamic content of the up-status can also save the day.</p>
+    <p>I know that every client wants 100% SLAs but sometimes, when the bad hits the fan, a maintenance page, hosted on a bucket somewhere, can be a life-saving jacket. A status page with a small dynamic content of the up-status can also save the day.</p>
 </article>
 <footer style="text-align: center;padding-top: 15px;">&copy;<strong>2019 Copyright Approved</strong></footer>
 </body>
