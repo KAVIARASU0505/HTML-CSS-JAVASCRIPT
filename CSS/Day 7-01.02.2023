@@ -1,0 +1,101 @@
+<!Doctype Html>
+<html lan="en-US">
+<head> 
+<title>Cascading Style Sheet(CSS)</title>
+<link rel="icon" href="image.png"/>
+<meta charset="utf-8" />
+<meta name="description" content="CSS BASICS">
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<style>
+::selection{
+    color: rgb(12, 189, 233);
+   }
+header~p{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    color: blue;
+    margin: auto;
+}
+body{
+    background-image:linear-gradient(to left, rgb(245, 45, 45) , rgb(240, 229, 84));;
+}
+body>div>a>img{
+  float:right;
+  width: 400px;
+  height: 250px;
+}
+table{
+    border-collapse: collapse;
+    border-width:2px;
+}
+p{
+    margin-bottom:0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <marquee scrollamount="10">
+        <h1>Webpage Creation</h1>
+    </marquee>
+    </header>
+<p>Clearly define your website's purpose before you start the design process: the why behind your site should be the driving force when deciding what features it needs.</p>
+<div>
+<a href="https://coder.today/tech/2018-10-27_10-examples-of-how-to-use-static-html-websites/"><img src="swebpage.png" alt="Demo Webpage" ></a>
+</div>
+<div>
+    <ol>
+        <p>There are rules to create a webpage</p>
+        <li style="padding-top: 1px">Have a purpose</li>
+        <li>To Know about users</li>
+        <li>Create a smooth user journey</li>
+        <li>Keep it simple</li>
+        <li>Be consistent</li>
+        <li>Publish Quality content</li>
+    </ol>
+</div>
+<p><q>A static web page (sometimes called a flat page/stationary page) is a web page that is delivered to the user exactly as stored.</q></p>
+<div> 
+    <section>Some Advantages and disadvantages are shown below;</section>
+    <table border="2">
+        <thead style="font-weight: bold;">
+            <tr>
+                <td>Advantage</td>
+                <td>Disadvantage</td>
+            </tr>
+        </thead>
+        <tr>
+            <td>Raw performance</td>
+            <td>Duplicate content </td>
+        </tr>
+        <tr>
+            <td>Spike traffic / Hot load resistant</td>
+            <td>Frequent Update/Deployment</td>
+        </tr>
+        <tr>
+            <td>fast recovery</td>
+            <td>Unable to recover fast</td>
+        </tr>
+    </table>
+</div>
+<article>
+    <h1>Static Website</h1>
+    <p>The most common example is to build an entire website without a back-end.I think the 3 most common usages are <strong>Blogs, Documentation and Sites</strong>. You can write them from scratch or use a generator.</p>
+</article>
+<article>
+    <h1><i>cache</i>&nbsp;Very high traffic</h1>
+    <p>When high traffic is involved with slow actions (like database queries), frameworks or bigger systems usually use HTML pages as a cache, to improve performance.</p>
+</article>
+<article>
+    <h1>Forms and immutable content</h1>
+    <p>Other types of static HTML pages are forms (that do not change often of course) which can submit data to a server (post) and content that does not change (like <b>newsletters, sport results, historical events, papers</b>).</p>
+</article>
+<article>
+    <h1>Maintenance and status pages</h1>
+    <p>I know that every client wants 100% SLAs but sometimes, when the sh** hits the fan, a maintenance page, hosted on a bucket somewhere, can be a life-saving jacket. A status page with a small dynamic content of the up-status can also save the day.</p>
+</article>
+<footer style="text-align: center;padding-top: 15px;">&copy;<strong>2019 Copyright Approved</strong></footer>
+</body>
