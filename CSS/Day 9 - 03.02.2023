@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stock Market fees</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      header {
+        background:linear-gradient(to left,rgb(213, 122, 236),rgb(129, 241, 245));
+        height: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: yellowgreen;
+      }
+      section{
+        display: flex;
+        flex-direction: row;
+      }
+      body{
+        background-image:linear-gradient(to down,yellow,red);      
+      }
+      .til{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: aqua;
+        padding-bottom: 0px;
+      }
+    .warning {
+    border: 5px ridge red;
+    background-color: cyan;
+}
+</style>
+  </head>
+  <body>
+    <div class="warning">
+    <header>
+      <h1>Stock Market fees</h1>
+    </header>
+        <article class="til">
+            <h3>Title</h3>
+            <h3 style="padding-left:50px";>PayDepot</h3>
+            <h3>Flypay</h3>
+            <h3>Payline</h3>
+            <h3>Fattmerchant</h3>
+            <h3 style="padding-right:30px">Makemoney</h3>
+        </article>
+    <section style="column-gap: 8px;padding-top:0px;">
+      <article style="background-color: cornflowerblue;">
+        <h4>eCommerce </h4>
+        <h4>Early Fee</h4>
+        <h4>Annual Fee</h4>
+        <h4>Monthly fee</h4>
+        <h4>Payment fee</h4>    
+        <h4>Monthly Fee</h4> 
+        <h4>PCI Complaince Fee</h4>  
+      </article>
+      <article style="padding-left: 130px;">
+        <h4>$2.15</h4>
+        <h4>None</h4>
+        <h4>$23</h4>
+        <h4>None</h4>
+        <h4>None</h4>    
+        <h4>$50</h4> 
+        <h4>None</h4>  
+      </article>
+      <article style="padding-left: 130px;">
+        <h4>$2.75</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>    
+        <h4>$60</h4> 
+        <h4>None</h4>  
+      </article>
+      <article style="padding-left: 130px;">
+        <h4>$3.50</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>$25/mn</h4>
+        <h4>None</h4>    
+        <h4>$45</h4> 
+        <h4>None</h4>  
+      </article>
+      <article style="padding-left: 130px;">
+        <h4>$2.0</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>    
+        <h4>$30</h4> 
+        <h4>None</h4>  
+      </article>
+      <article style="padding-left: 130px;">
+        <h4>$1.15</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>
+        <h4>None</h4>    
+        <h4>$25</h4> 
+        <h4>None</h4>  
+      </article>
+    </section></div>
+  </body>
+</html>
