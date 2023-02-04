@@ -1,3 +1,6 @@
+function myFunction() {
+  alert("Your Request submitted");
+}
 let Box=document.getElementById("form");
 Box.addEventListener("focus",function(event){
     event.target.style.background="lightblue";
