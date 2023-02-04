@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Events</title>
     <style>
     input[type = text],input[type = password],input[type = submit]{
@@ -18,10 +17,33 @@
         }
         body{
             background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211108/pngtree-abstract-blue-plain-background-with-modern-style-and-dynamic-lines-image_915412.png');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         .Marquee{
             font-size: 40px;
             text-shadow: 2px 2px lightgreen;
+        }
+        details {
+        border: 3px solid #aaa;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+}
+        summary{
+        font-size: 25px;
+}
+        dt,dd{
+            font-size: 19px;
+        }
+        blink {
+            animation: blink 1.5s linear infinite;
+            color: rgb(255, 0, 166);
+            font-family: sans-serif;
+        }
+        @keyframes blink {
+            50% {
+                opacity:0;
+            }
         }
     </style>
 </head>
@@ -43,16 +65,17 @@
     <div id="Inout" style="padding-top: 10px;">
         <input type="text" placeholder="Username"/>
         <input type="password" placeholder="Password" /><br>
-        <input type="submit" value="Submit">
+        <button onclick="myFunction()" style="font-size: 16px;border-radius: 3px;">Submit</button>
   </div></center>
   <details>
+    <summary>Website Creation <blink>Click Here</blink></summary>
     <article>
         <h1>Static Website</h1>
         <p>The most common example is to build an entire website without a back-end.I think the 3 most common usages are <strong>Blogs, Documentation and Sites</strong>. You can write them from scratch or use a generator.</p>
     </article>
     <article>
         <h1><i>cache</i>&nbsp;Very high traffic</h1>
-        <p>When high traffic is involved with slow actions (like database queries), frameworks or bigger systems usually use HTML pages as a cache, to improve performance.</p>
+        <p>When high traffic is involved with slow actions (like database queries), frameworks or bigger systems usually use<mark> HTML pages </mark>as a cache, to improve performance.</p>
     </article>
     <article>
         <h1>Forms and immutable content</h1>
@@ -63,6 +86,35 @@
         <p>I know that every client wants 100% SLAs but sometimes, when the sh** hits the fan, a maintenance page, hosted on a bucket somewhere, can be a life-saving jacket. A status page with a small dynamic content of the up-status can also save the day.</p>
     </article>
   </details>
-<script src="ti.js"></script>
+  <details>
+    <summary>Application Software available <blink>Click Here</blink> </summary>
+    <dl>
+        <blockquote cite="https://www.indeed.com/career-advice/career-development/types-of-software">
+        <p style="text-align:center;font-size:30px"><strong>Types of application software:</strong></p>
+        <dt>1.Word Pressing</dt>
+        <dd>It is a program software that creates text-based documents.</dd>
+        <dt>2.Database</dt>
+        <dd>It is application software allows users to create and manage a database, which is a set of data</dd>
+        <dt>3.Spreadsheet</dt>
+        <dd>It is an application that can create electronic documents and arrange them in rows and columns.</dd>
+        <dt>4.Web browsers</dt>
+        <dd>Web browsers are application software that users can access to search for information on the internet.</dd>
+        <dt>5.Multimedia</dt>
+        <dd>Multimedia applications allow users to create or modify multimedia, including images, audio and video.</dd>
+        </blackquote></dl>
+  </details>
+  <details>
+    <summary>Language known <blink>Click Here</blink></summary>
+    <label for="Language">Language </label>
+    <select id="Language">
+        <option value="English">English</option>
+        <option value="Tamil">Tamil</option>
+        <option value="French">French</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Hindi">Hindi</option><br>
+    </select>
+    <button onclick="myFunction()" style="font-size: 16px;border-radius: 3px;">Submit</button>
+  </details>
+<script src="Page.js"></script>
 </body>
 </html>
