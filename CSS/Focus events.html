@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+    input[type = text],input[type = password],input[type = submit]{
+            width: 20%;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+         }
+        .align{
+            text-align: center;
+            padding-bottom: 45px;
+        }
+        body{
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20211108/pngtree-abstract-blue-plain-background-with-modern-style-and-dynamic-lines-image_915412.png');
+        }
+        .Marquee{
+            font-size: 40px;
+            text-shadow: 2px 2px lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <Marquee scrollamount="12" class="Marquee">
+        Welcome
+    </Marquee><center>
+    <div class="align">
+        <button onclick="windowOpen()">
+            Focus Events
+        </button>
+        <button onclick="windowClose()">
+            Close the Topic
+        </button></div>
+    <div id="form">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+    </div>
+    <div id="Inout" style="padding-top: 10px;">
+        <input type="text" placeholder="Username"/>
+        <input type="password" placeholder="Password" /><br>
+        <input type="submit" value="Submit">
+  </div></center>
+  <details>
+    <article>
+        <h1>Static Website</h1>
+        <p>The most common example is to build an entire website without a back-end.I think the 3 most common usages are <strong>Blogs, Documentation and Sites</strong>. You can write them from scratch or use a generator.</p>
+    </article>
+    <article>
+        <h1><i>cache</i>&nbsp;Very high traffic</h1>
+        <p>When high traffic is involved with slow actions (like database queries), frameworks or bigger systems usually use HTML pages as a cache, to improve performance.</p>
+    </article>
+    <article>
+        <h1>Forms and immutable content</h1>
+        <p>Other types of static HTML pages are forms (that do not change often of course) which can submit data to a server (post) and content that does not change (like <b>newsletters, sport results, historical events, papers</b>).</p>
+    </article>
+    <article>
+        <h1>Maintenance and status pages</h1>
+        <p>I know that every client wants 100% SLAs but sometimes, when the sh** hits the fan, a maintenance page, hosted on a bucket somewhere, can be a life-saving jacket. A status page with a small dynamic content of the up-status can also save the day.</p>
+    </article>
+  </details>
+<script src="ti.js"></script>
+</body>
+</html>
