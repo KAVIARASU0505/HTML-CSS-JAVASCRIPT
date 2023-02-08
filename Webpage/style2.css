@@ -1,0 +1,26 @@
+body{
+    border: solid black;
+    background-image: linear-gradient(to bottom,skyblue,yellow);
+    background-attachment: fixed;
+}
+table{
+    border-collapse: collapse;
+}
+h3{
+    font-size: 28px;
+    color:solid black;
+}
+h4{
+    color: rgb(119, 0, 255);
+}
+a{
+    color: red;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:150px;
+}
+p,ol,ul{
+    font-size:20px;
+}

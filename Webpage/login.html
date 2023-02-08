@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+    border: solid black;
+    background-image: linear-gradient(to right,rgb(240, 240, 169),rgb(3, 217, 245));
+    text-align: center;
+}
+.login{
+    padding-top:25px;
+    font-size: 18px; 
+}
+input[type = text],input[type=Password] {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+ }
+    </style>
+</head>
+<body>
+    <h2>Login to Enter the Website</h2>
+    <form class="login">
+        <h3>Login Details</h3>
+        <div>
+            <label for="Username">Username:&ensp;</label>
+            <input type="text" id="Username" placeholder="Username" required><br><br>
+            <label for="Password">Password:&ensp;</label>
+            <input type="password" id="Password" placeholder="Password" required><br><br>
+            <input style="width: 100px;height: 30px;font-size: 16px;"type="submit" value="Sign in">
+        </div>
+        <p><a href="#">Forgot password?</a>&emsp;&emsp;&emsp;<a href="#">Don't have an account?</a></p>
+        </form>
+    
+</body>
+</html>

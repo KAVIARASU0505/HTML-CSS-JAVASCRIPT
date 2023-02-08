@@ -1,0 +1,51 @@
+body{
+    border: solid black;
+}
+h6{
+    background-image: url('https://wallpaperaccess.com/full/1271967.jpg');
+    height: 80px;
+    width: 85rem;
+    margin: 0;
+    font-size: 35px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(255, 196, 0);
+}
+p{
+    font-size: 20px;
+}
+a{
+    color: rgb(2, 0, 2);
+}
+.container{
+    display: flex;
+    background-image:linear-gradient(to right,rgb(201, 195, 255),rgb(77, 76, 156));
+    column-gap: 50px;
+    justify-content: center;
+    color: rgb(244, 248, 4);
+    width: 85rem;
+}
+.introimage{
+    opacity: 0.4;
+    position:absolute;
+    width: 85rem;
+    height:50rem;
+}
+.text{
+    padding-top: 20rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 0);
+}
+#content{
+    padding-top:23rem;
+    font-size: 26px;
+    color: rgb(109, 91, 47);
+}
+.content1{
+    font-size: 26px;
+    color: rgb(109, 91, 47);
+}
+article{
+    font-size: 20px;
+}

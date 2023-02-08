@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>
+    img{
+    padding-left: 41%;
+    width: 250px;
+    height: auto;
+}
+
+    body{
+    border:solid black;
+    background-image: linear-gradient(to bottom,skyblue,yellow);
+    background-attachment: fixed;
+}
+    p{
+        font-size: 30px;
+    }
+    form{
+        font-size: 20px;
+    }
+ </style>
+</head>
+<body>
+    <div>
+        <img src="https://t3.ftcdn.net/jpg/02/81/81/82/360_F_281818212_9iykhtvDmhvJUFKU8mmXF8W89IQ2EhWE.jpg">
+        <center><strong><p>Feedback Form</p></strong></center>
+        </div>
+        <form>
+        <div style="padding-top:20px;">
+            <label for="Name" id="name">Enter Your name:</label>
+            <input type="text" id="name" placeholder="Name*" required><br><br>
+            <label for="Email" id="email">Enter Your Email:</label>
+            <input type="text" placeholder="Email*" required><br><br>
+            <label for="choose">Agree and Disagree for contents:</label>
+            <select id="options">
+                <option value="Agree">Agree</option>
+                <option value="Disgree">Disagree</option></select><br><br>
+            <label for="choose">Webpage Structure:</label>
+            <select id="options">
+                <option value="Agree">Agree</option>
+                <option value="Disgree">Disagree</option>
+            </select><br><br>
+            <label for="comments">Any Comments or Suggestion:</label>
+            <input type="text" placeholder="Comments*" required><br><br>
+            <input type="checkbox" required>
+            <label for="confirmation">Check this box to confirm your contents in the feedback form.</label><br><br>
+            <input style="width: 100px;height: 30px;font-size: 16px;" type="submit" value="Submit">
+        </div></form>
+        <footer style="text-align: center;padding-top: 200px;">&copy2022 Copyright Approved</footer>
+</body>
+</html>
