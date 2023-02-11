@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            border: 10px solid black;
+            padding-left: 15px;
+        }
+        .hidden-details{
+            display: none;
+        }
+        .hidden-details.Reveal-button{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h3>Click me</h3>
+    <button onclick="alert('You are alerted in a dialog box')">Enter</button>
+    <div class="Container">
+    <ul>
+        <li class="list-items">Content 1</li>
+        <li class="list-items">Content 2</li>
+        <li class="list-items">Content 3</li>
+        <li class="list-items">Content 4</li>
+        <li class="list-items">One</li>
+        <li class="list-items">Two</li>
+        <li class="list-items">Three</li>
+</ul>
+</div>
+<div>
+    <h1 style="text-align: center;">Event Listener</h1>
+    <div class="hidden">
+        <button class="Reveal-button">Tap me to Reveal</button>
+    </div>
+    <p class="hidden-details">The content of a website includes the text, images, sounds, videos, and animations that users experience on a website. Website content is the utmost important tool you can use to achieve your marketing strategy and communication to your customers about your brand.</p>
+</div>
+<div class="form" style="padding: 30px;">
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+</div>
+    <script src="Basics.js"></script>
+</body>
+</html>
