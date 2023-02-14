@@ -168,3 +168,8 @@ table.addEventListener('click',function(){
 clear.addEventListener('click',function(){
     result.textContent='';
 })
+const length11=document.querySelector('.len11');
+length11.addEventListener('click',function(){
+    const number=Math.random();
+    length11.textContent=number;
+})
