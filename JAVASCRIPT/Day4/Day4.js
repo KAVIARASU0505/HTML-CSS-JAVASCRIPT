@@ -70,3 +70,71 @@ var customer = { name: "Ravi" }
 var card = { amount: 8, product: "pen", unitprice: 80 }
 var message = `Hi ${customer.name},want to buy ${card.amount} ${card.product} for a total of ${card.amount * card.unitprice} bucks?`
 console.log(message);
+////Destructuring Assignment
+let P = 1;
+let Q = 3;
+[P, Q] = [Q, P];
+console.log(P); 
+console.log(Q); 
+//Arrays
+const num=[];
+num.push("23","25","50");
+num.push("60");
+console.log(num.length);
+//
+const cars=[];
+cars.push("Swift","Fortuner","Honda City","Jaguar","Tesla");
+console.log(cars[1]);
+cars[7]="Mazda";
+console.log(cars.length);
+console.log(cars[6]);
+console.log(Object.keys(cars));
+console.log(Object.values(cars));
+//
+const a1 = ['a', 'b', 'c'];
+const a2 = ['d', 'e', 'f'];
+const a3 = a1.concat(a2);
+console.log(a3);
+//
+const b1=['1','2','3','4','5'];
+const b2=b1.copyWithin(0,3);
+console.log(b2);
+//
+const words = ['bird', 'anime', 'humans', 'exotic', 'destruct', 'amibous'];
+const result = words.filter(word => word.length > 5);
+console.log(result);
+//
+const array1 = ['a', 'b', 'c'];
+array1.forEach(element)
+function element(item){
+console.log(item);
+}
+//
+const p1 = [1, 2, 4, 5];
+const map1 = p1.map(x => x * 2);
+console.log(map1);
+//
+const animals = ['lion', 'tiger', 'camel', 'cow', 'Giraffe','tiger'];
+console.log(animals.indexOf('tiger'));
+console.log(animals.indexOf('tiger',2));
+//
+const a4 = ['1', '2', '3'];
+const reversed = a4.reverse();
+console.log(reversed);
+//
+const animal = ['lion', 'tiger', 'camel', 'cow', 'Giraffe','tiger'];
+d=animal.slice(2);
+console.log(d);
+e=animal.slice(2,4);
+console.log(e);
+f=animal.splice(2,0,"Human");
+console.log(animal);
+//
+const arr1 = [1, 2, 3];
+const firstElement = arr1.shift();
+console.log(arr1);
+//
+const insert = ["One","Two","Three"];
+l=insert.unshift("four","five");
+console.log(l);
+console.log(insert);
