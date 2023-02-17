@@ -100,7 +100,7 @@ class Rectangle {
  }
  var cont = new Rectangle(10,12);
 cont.test();
- //Setter Function
+////Setter Function
 class Student {
     constructor(id,fname,lname){
        this.id = id;
@@ -117,3 +117,53 @@ let d1 = new Student(22,'kavin','kumar')
  console.log(d1);
  d1.idnum = 23;
  console.log(d1);
+ ////getter Function
+ class Student1 {
+    constructor(id,fname,lname){
+       this.id = id;
+       this.fname = fname;
+       this.lname = lname;
+       console.log('Verified 3');
+    }
+    get fullname(){
+        return console.log(`The full name is ${this.fname + this.lname}`);
+    }
+ }
+let r1 = new Student1(22,'kavin','kumar')
+ console.log(r1);
+ r1.fullname();
+ console.log(r1);
+ //Inheritance
+ class car{
+    constructor(brand){
+        this.name=brand;
+    }
+ }
+ class model extends car{
+    constructor(brand,year){
+         super(brand);
+         this.year=year;
+    }
+    out(){
+        return console.log(`The car brand name is ${this.name} and the year is ${this.year}`);
+    }
+ }
+
+const Mycar=new model("Maruthi",2006);
+Mycar.out()
+////static
+class Car{
+    static numberOfCars = 0;
+    static beginRace(){
+      console.log("The race has begun!");
+    }
+    constructor(model){
+      this.model = model;
+      Car.numberOfCars += 1;
+    }
+  }
+  let car1 = new Car("Ford");
+  let car2 = new Car("Mustang");
+  let car3 = new Car("Swift");
+  console.log(Car.numberOfCars);
+  Car.beginRace();
