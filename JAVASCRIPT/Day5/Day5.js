@@ -167,3 +167,56 @@ class Car{
   let car3 = new Car("Swift");
   console.log(Car.numberOfCars);
   Car.beginRace();
+//Array Methods
+const arr=["orange","grapes","pineapple"];
+arr.push("Fruits");
+function Last(arr) {
+   return arr.at(3);
+ }
+ const item = Last(arr);
+ console.log(item);
+ //
+ const arr1 = ["e", "f", "h"];
+const Entries = arr1.entries();
+for (const ele of Entries) {
+  console.log(ele);
+}
+//
+const arr2 = [1, 2, 3, 4,5,6,7];
+const filler=arr2.fill(0,3,5);
+console.log(filler);
+//
+const arr3 = [10,20,30,40,50];
+const got = arr3.find(finder => finder > 10);
+console.log(got);
+//
+const arr4 = [10,15,7,80,50];
+const smallnumber = (element) => element <10;
+console.log(arr4.findIndex(smallnumber));
+//
+const arr5 = [10,15,7,80,50];
+const got1= arr5.findLast((element) => element > 50);
+console.log(got1);
+//
+const arr6 = [1, 2, [3, 4, [5, 6]]];
+const got2=arr6.flat();
+console.log(got2);
+const arr7 = [1, 2, [3, 4, [5, 6]]]; // We can also use infinity.
+const got3=arr6.flat(2);
+console.log(got3);
+//String Methods
+function casesensitivechecking(str1, str2) {
+   return str1.toUpperCase() === str2.toUpperCase();
+ }
+ const sensi=casesensitivechecking("Kavi", "Kavi");
+ console.log(sensi);
+ //
+ console.log(String.fromCodePoint(9712,9797,9580));
+ //
+const article = 'The article is full of worst content';
+const word = 'worst';
+const word1=article.includes(word);
+console.log(`The word "${word}" ${word1? 'is' : 'is not'} in the sentence`);
+//
+const word2 = 'Beautiful!';
+console.log(`The nature is ${word2.repeat(2)}`);
