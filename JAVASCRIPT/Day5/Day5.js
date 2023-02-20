@@ -76,19 +76,15 @@ context({name:"Hema",age:23});
 export{paraself,context};
 //Import and Export in default values
 export default class rule{ 
-    good(name,id){
-    const words=`My Friend name is ${name} and his id is ${id}`;
-    console.log(words);
- }
-// good("chandru",20);
-     bad(name,id){
-     const fnt=`My Friend name is ${name} and his id is ${id}`;
-     console.log(fnt);
- }
-//  bad("Karthi",23);
+    constructor(name) {
+        this.name = name;
+        const fnt=`My sister name is ${name}`
+        console.log(fnt);
+      }
 }
-Classes in ES6
-class Rectangle { 
+
+// Classes in ES6
+export default class Rectangle { 
     constructor(height, width) { 
        this.h = height; 
        this.w = width; 
