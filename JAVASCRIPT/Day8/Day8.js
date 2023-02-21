@@ -301,6 +301,8 @@ let normal=new Normal('Human');
 normal.sings();
 })
 //Inheritance
+const Ih= document.getElementById("Inheritance");
+Ih.addEventListener("click",function(){
 class car1{
     constructor(brand){
         this.name=brand;
@@ -312,9 +314,10 @@ class car1{
          this.year=year;
     }
     out(){
-        return console.log(`The car brand name is ${this.name} and the year is ${this.year}`);
+       document.writeln("The car brand name is "+this.name +" and the year is "+this.year+".");
     }
  }
 
 const Mycar=new model("Maruthi",2006);
 Mycar.out()
+})
