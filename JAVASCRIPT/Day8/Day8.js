@@ -321,3 +321,90 @@ class car1{
 const Mycar=new model("Maruthi",2006);
 Mycar.out()
 })
+//Prototype
+const pt= document.getElementById("Prototype");
+pt.addEventListener("click",function(){
+let used={
+    bool:true,
+    fun:function(){
+      document.writeln("The meaning of the word is given in the dictionary.");
+    }
+};
+let used1={
+    bool1:false,
+    fun1:function(){
+        document.writeln("The meaning of the word is not given in the dictionary.");
+    },
+    __proto__:used
+};
+used1.fun();
+used1.fun1();
+})//In prototype the object may not inherit from two others.
+const pt1= document.getElementById("Prototype1");
+pt1.addEventListener("click",function(){
+let used={
+    bool:true,
+    fun:function(){
+      document.writeln("The meaning of the word is given in the dictionary.");
+    }
+};
+let used1={
+    bool1:false,
+    fun1:function(){
+        document.writeln("The meaning of the word is not given in the dictionary.");
+    },
+    __proto__:used
+};
+used1.fun=function(){  // We can change the content in the prototype.
+    document.writeln("The content is changed.");  
+}
+used1.fun();
+used1.fun1();
+})
+//
+const pt2= document.getElementById("Prototype2");
+pt2.addEventListener("click",function(){
+let used={
+    bool:true,
+    fun:function(){
+      document.writeln("The meaning of the word is given in the dictionary.");
+    }
+};
+let used1={
+    bool1:true,
+    fun1:function(){
+        document.writeln("The meaning of the word is not given in the dictionary.");
+    },
+    __proto__:used
+};
+for(let newer in used1) {
+    let have = used1.hasOwnProperty(newer)
+    if(have){
+        alert(`We have :${newer}`);
+    }
+    else{
+        alert(`We have :${newer}`);
+    }
+}
+used1.fun();
+used1.fun1();
+})
+//
+const pt3= document.getElementById("Prototype3");
+pt3.addEventListener("click",function(){
+let used={
+    won:true,
+    fun:function(){
+      document.writeln("The meaning of the word is given in the dictionary.");
+    }
+};
+function used1(name){
+    this.name=name;
+    document.writeln("The meaning of the word is given in the "+name+".");
+}
+used1.prototype=used;
+let newer1=new used1("dictionary");
+newer1.fun();
+obj=Object.getPrototypeOf(newer1);
+console.log(obj);
+})
